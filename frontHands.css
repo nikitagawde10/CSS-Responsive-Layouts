@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.columnTwo .childContainer {
+  background-color: rgb(65, 161, 94);
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+@media all and (max-width: 900px) {
+  .columnThree {
+    display: none;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  height: 1000px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.columnOne .childContainer {
+  height: 100px;
+  background-color: lightpink;
+  margin: 10px;
+}
+
+.columnThree .childContainer {
+  height: 100px;
+  width: 100%;
+  background-color: lightpink;
+  margin: 10px;
+}
+
+.columnTwo {
+  display: flex;
+  flex-flow: wrap;
+  margin: 2px;
+  overflow-y: auto;
+}
+
+.columnOne {
+  overflow-y: auto;
+}
+.columnThree {
+  overflow-y: auto;
+}

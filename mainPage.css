@@ -1,0 +1,12 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 1px solid gray;
+    margin: 2%;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-flow: wrap;
+}

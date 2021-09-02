@@ -1,0 +1,30 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  height: 1000px;
+  text-align: center;
+}
+
+.columnTwo {
+  overflow-y: auto;
+}
+
+.columnTwo .childContainer {
+  height: 100px;
+  background-color: lightpink;
+  margin: 2%;
+}
+
+.columnOne .childContainer {
+  background-color: rgb(249, 252, 96);
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.columnOne {
+  display: flex;
+  flex-flow: wrap;
+  overflow-y: auto;
+  align-content: flex-start;
+  overflow-y: auto;
+}

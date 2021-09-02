@@ -1,0 +1,36 @@
+.card {
+  display: grid;
+  justify-content: start;
+  height: 1000px;
+  grid-column-gap: 10px;
+  grid-template-columns: 400px 1fr;
+
+  text-align: center;
+  overflow-y: auto;
+}
+
+.card__column-one .card__container-item {
+  height: 100px;
+  width: 100%;
+}
+
+.card__column-two .card__container-item {
+  width: 150px;
+  height: 150px;
+}
+
+.card__column-two {
+  overflow-y: auto;
+  display: flex;
+  flex-flow: wrap;
+  margin: 3px;
+}
+.card__column-one {
+  overflow-y: auto;
+}
+
+.card__container-item {
+  background-color: thistle;
+
+  margin: 10px;
+}
